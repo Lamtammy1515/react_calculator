@@ -1,5 +1,11 @@
 
 function App() {
+
+	const createDigits = () => {
+		
+	}
+
+
 	return (
 		<div className="App">
 			<div className="calculator">
@@ -17,7 +23,9 @@ function App() {
 				</div>
 				
 				<div className='digits'>
-					
+					<button>0</button>
+					<button>.</button>
+					<button>=</button>
 				</div>
 			</div>
 		</div>
