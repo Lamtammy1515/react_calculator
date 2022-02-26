@@ -6,12 +6,18 @@ function App() {
 				<div className="display">
 					<span>(0)</span>0
 				</div>
+					
+				<div className="operator">
 					<button>/</button>
 					<button>*</button>
 					<button>+</button>
 					<button>-</button>
-				<div className="operator">
 
+					<button>DEL</button>
+				</div>
+				
+				<div className='digits'>
+					
 				</div>
 			</div>
 		</div>
