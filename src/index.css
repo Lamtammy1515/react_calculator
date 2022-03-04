@@ -45,3 +45,9 @@ body {
   font-size: 14px;
   color: #888;
 }
+
+button {
+  appearance: none;
+  border: none;
+  outline: none;
+}
