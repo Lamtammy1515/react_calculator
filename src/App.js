@@ -1,5 +1,14 @@
+import { useDebugValue, useState } from 'react'
 
 function App() {
+	const [calc, setCalc] = useState("");
+	const [result, setResult] = useState("");
+
+	const ops = ['/', '*', '-', '+', '.'];
+
+	const updateCalc = value => {
+		setCalc(calc + value);
+	}
 
 	const createDigits = () => {
 		const digits = [];
@@ -17,7 +26,7 @@ function App() {
 		<div className="App">
 			<div className="calculator">
 				<div className="display">
-					<span>(0)</span>0
+					{result ? <span>(0)</span> : ''} { calc || "0"}
 				</div>
 					
 				<div className="operators">
