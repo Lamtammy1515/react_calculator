@@ -71,4 +71,11 @@ button:hover {
   font-weight: 700;
 }
 
+.digits {
+  display: flex;
+  flex-wrap: wrap;
+}
 
+.digits button {
+  flex: 1 1 33.333%;
+}
