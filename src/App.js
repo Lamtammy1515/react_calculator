@@ -30,10 +30,10 @@ function App() {
 				</div>
 					
 				<div className="operators">
-					<button>/</button>
-					<button>*</button>
-					<button>+</button>
-					<button>-</button>
+					<button onClick={() => updateCalc('/') }>/</button>
+					<button onClick={() => updateCalc('*') }>*</button>
+					<button onClick={() => updateCalc('+') }>+</button>
+					<button onClick={() => updateCalc('-') }>-</button>
 
 					<button>DEL</button>
 				</div>
