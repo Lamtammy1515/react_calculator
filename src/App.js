@@ -15,7 +15,9 @@ function App() {
 
 		for (let i = 1; i < 10; i++) {
 			digits.push(
-				<button key={i}>{i}</button>
+				<button 
+				onClick={() => updateCalc(i.toString())}
+				key={i}>{i}</button>
 			)
 		}
 		return digits
@@ -40,9 +42,9 @@ function App() {
 				
 				<div className='digits'>
 					{ createDigits() }
-					<button>0</button>
-					<button>.</button>
-					<button>=</button>
+					<button onClick={() => updateCalc('0')}>0</button>
+					<button onClick={() => updateCalc('.')}>.</button>
+					<button onClick={() => updateCalc('=')}>=</button>
 				</div>
 			</div>
 		</div>
