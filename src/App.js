@@ -7,6 +7,10 @@ function App() {
 	const ops = ['/', '*', '-', '+', '.'];
 
 	const updateCalc = value => {
+		if (
+			
+		)
+
 		setCalc(calc + value);
 	}
 
