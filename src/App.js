@@ -35,6 +35,9 @@ function App() {
 		return digits
 	}
 
+	const calculate = () => {
+		
+	}
 
 	return (
 		<div className="App">
