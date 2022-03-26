@@ -36,7 +36,7 @@ function App() {
 	}
 
 	const calculate = () => {
-		setCalc(eval(calc))
+		setCalc(eval(calc).toString())
 	}
 
 	return (
