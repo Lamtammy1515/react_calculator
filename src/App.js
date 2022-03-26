@@ -39,12 +39,14 @@ function App() {
 		setCalc(eval(calc).toString())
 	}
 
+	const deleteLast = () => {
+		
+	}
 	return (
 		<div className="App">
 			<div className="calculator">
 				<div className="display">
-					{result ? <span>({result})</span> : ''} { calc || "0"}&
-					nbsp;
+					{result ? <span>({result})</span> : ''} { calc || "0"}
 				</div>
 					
 				<div className="operators">
