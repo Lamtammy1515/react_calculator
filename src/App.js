@@ -61,7 +61,7 @@ function App() {
 					<button onClick={() => updateCalc('+') }>+</button>
 					<button onClick={() => updateCalc('-') }>-</button>
 
-					<button onClick={deleteLast}>DEL</button>
+					<button onClick={deleteLast}> DELETE </button>
 				</div>
 				
 				<div className='digits'>
